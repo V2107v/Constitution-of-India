@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 } else if(position == 3) {
                     Toast.makeText(MainActivity.this, "Amendments", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),Amendments.class);
+                    startActivity(intent);
                 }
             }
         });
