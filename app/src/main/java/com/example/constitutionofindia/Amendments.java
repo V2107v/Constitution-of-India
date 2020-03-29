@@ -60,6 +60,31 @@ import com.example.amendments.Amendment47;
 import com.example.amendments.Amendment48;
 import com.example.amendments.Amendment49;
 import com.example.amendments.Amendment50;
+import com.example.amendments.Amendment51;
+import com.example.amendments.Amendment52;
+import com.example.amendments.Amendment53;
+import com.example.amendments.Amendment54;
+import com.example.amendments.Amendment55;
+import com.example.amendments.Amendment56;
+import com.example.amendments.Amendment57;
+import com.example.amendments.Amendment58;
+import com.example.amendments.Amendment59;
+import com.example.amendments.Amendment60;
+import com.example.amendments.Amendment61;
+import com.example.amendments.Amendment62;
+import com.example.amendments.Amendment63;
+import com.example.amendments.Amendment64;
+import com.example.amendments.Amendment65;
+import com.example.amendments.Amendment66;
+import com.example.amendments.Amendment67;
+import com.example.amendments.Amendment68;
+import com.example.amendments.Amendment69;
+import com.example.amendments.Amendment70;
+import com.example.amendments.Amendment71;
+import com.example.amendments.Amendment72;
+import com.example.amendments.Amendment73;
+import com.example.amendments.Amendment74;
+import com.example.amendments.Amendment75;
 
 import java.util.ArrayList;
 
@@ -336,6 +361,81 @@ public class Amendments extends AppCompatActivity {
                     startActivity(intent);
                 } else if(position == 49) {
                     Intent intent = new Intent(getApplicationContext(), Amendment50.class);
+                    startActivity(intent);
+                } else if(position == 50) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment51.class);
+                    startActivity(intent);
+                } else if(position == 51) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment52.class);
+                    startActivity(intent);
+                } else if(position == 52) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment53.class);
+                    startActivity(intent);
+                } else if(position == 53) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment54.class);
+                    startActivity(intent);
+                } else if(position == 54) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment55.class);
+                    startActivity(intent);
+                } else if(position == 55) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment56.class);
+                    startActivity(intent);
+                } else if(position == 56) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment57.class);
+                    startActivity(intent);
+                } else if(position == 57) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment58.class);
+                    startActivity(intent);
+                } else if(position == 58) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment59.class);
+                    startActivity(intent);
+                } else if(position == 59) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment60.class);
+                    startActivity(intent);
+                } else if(position == 60) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment61.class);
+                    startActivity(intent);
+                } else if(position == 61) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment62.class);
+                    startActivity(intent);
+                } else if(position == 62) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment63.class);
+                    startActivity(intent);
+                } else if(position == 63) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment64.class);
+                    startActivity(intent);
+                } else if(position == 64) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment65.class);
+                    startActivity(intent);
+                } else if(position == 65) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment66.class);
+                    startActivity(intent);
+                }else if(position == 66) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment67.class);
+                    startActivity(intent);
+                }else if(position == 67) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment68.class);
+                    startActivity(intent);
+                } else if(position == 68) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment69.class);
+                    startActivity(intent);
+                } else if(position == 69) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment70.class);
+                    startActivity(intent);
+                }else if(position == 70) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment71.class);
+                    startActivity(intent);
+                } else if(position == 71) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment72.class);
+                    startActivity(intent);
+                } else if(position == 72) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment73.class);
+                    startActivity(intent);
+                } else if(position == 73) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment74.class);
+                    startActivity(intent);
+                } else if(position == 74) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment75.class);
                     startActivity(intent);
                 }
             }
