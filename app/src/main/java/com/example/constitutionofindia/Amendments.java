@@ -10,81 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.amendments.Amendment01;
-import com.example.amendments.Amendment02;
-import com.example.amendments.Amendment03;
-import com.example.amendments.Amendment04;
-import com.example.amendments.Amendment05;
-import com.example.amendments.Amendment06;
-import com.example.amendments.Amendment07;
-import com.example.amendments.Amendment08;
-import com.example.amendments.Amendment09;
-import com.example.amendments.Amendment10;
-import com.example.amendments.Amendment11;
-import com.example.amendments.Amendment12;
-import com.example.amendments.Amendment13;
-import com.example.amendments.Amendment14;
-import com.example.amendments.Amendment15;
-import com.example.amendments.Amendment16;
-import com.example.amendments.Amendment17;
-import com.example.amendments.Amendment18;
-import com.example.amendments.Amendment19;
-import com.example.amendments.Amendment20;
-import com.example.amendments.Amendment21;
-import com.example.amendments.Amendment22;
-import com.example.amendments.Amendment23;
-import com.example.amendments.Amendment24;
-import com.example.amendments.Amendment25;
-import com.example.amendments.Amendment26;
-import com.example.amendments.Amendment27;
-import com.example.amendments.Amendment28;
-import com.example.amendments.Amendment29;
-import com.example.amendments.Amendment30;
-import com.example.amendments.Amendment31;
-import com.example.amendments.Amendment32;
-import com.example.amendments.Amendment33;
-import com.example.amendments.Amendment34;
-import com.example.amendments.Amendment35;
-import com.example.amendments.Amendment36;
-import com.example.amendments.Amendment37;
-import com.example.amendments.Amendment38;
-import com.example.amendments.Amendment39;
-import com.example.amendments.Amendment40;
-import com.example.amendments.Amendment41;
-import com.example.amendments.Amendment42;
-import com.example.amendments.Amendment43;
-import com.example.amendments.Amendment44;
-import com.example.amendments.Amendment45;
-import com.example.amendments.Amendment46;
-import com.example.amendments.Amendment47;
-import com.example.amendments.Amendment48;
-import com.example.amendments.Amendment49;
-import com.example.amendments.Amendment50;
-import com.example.amendments.Amendment51;
-import com.example.amendments.Amendment52;
-import com.example.amendments.Amendment53;
-import com.example.amendments.Amendment54;
-import com.example.amendments.Amendment55;
-import com.example.amendments.Amendment56;
-import com.example.amendments.Amendment57;
-import com.example.amendments.Amendment58;
-import com.example.amendments.Amendment59;
-import com.example.amendments.Amendment60;
-import com.example.amendments.Amendment61;
-import com.example.amendments.Amendment62;
-import com.example.amendments.Amendment63;
-import com.example.amendments.Amendment64;
-import com.example.amendments.Amendment65;
-import com.example.amendments.Amendment66;
-import com.example.amendments.Amendment67;
-import com.example.amendments.Amendment68;
-import com.example.amendments.Amendment69;
-import com.example.amendments.Amendment70;
-import com.example.amendments.Amendment71;
-import com.example.amendments.Amendment72;
-import com.example.amendments.Amendment73;
-import com.example.amendments.Amendment74;
-import com.example.amendments.Amendment75;
+import com.example.amendments.*;
 
 import java.util.ArrayList;
 
@@ -203,7 +129,6 @@ public class Amendments extends AppCompatActivity {
         arrayList.add("Ninety Eighth Amendment");
         arrayList.add("Ninety Ninth Amendment");
         arrayList.add("One Hundredth Amendment");
-        arrayList.add("One Hundred One Amendment");
 
         arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         amendmentsListView.setAdapter(arrayAdapter);
@@ -436,6 +361,81 @@ public class Amendments extends AppCompatActivity {
                     startActivity(intent);
                 } else if(position == 74) {
                     Intent intent = new Intent(getApplicationContext(), Amendment75.class);
+                    startActivity(intent);
+                } else if(position == 75) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment76.class);
+                    startActivity(intent);
+                } else if(position == 76) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment77.class);
+                    startActivity(intent);
+                } else if(position == 77) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment78.class);
+                    startActivity(intent);
+                } else if(position == 78) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment79.class);
+                    startActivity(intent);
+                } else if(position == 79) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment80.class);
+                    startActivity(intent);
+                } else if(position == 80) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment81.class);
+                    startActivity(intent);
+                } else if(position == 81) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment82.class);
+                    startActivity(intent);
+                } else if(position == 82) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment83.class);
+                    startActivity(intent);
+                } else if(position == 83) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment84.class);
+                    startActivity(intent);
+                }else if(position == 84) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment85.class);
+                    startActivity(intent);
+                } else if(position == 85) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment86.class);
+                    startActivity(intent);
+                } else if(position == 86) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment87.class);
+                    startActivity(intent);
+                }  else if(position == 87) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment88.class);
+                    startActivity(intent);
+                } else if(position == 88) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment89.class);
+                    startActivity(intent);
+                } else if(position == 89) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment90.class);
+                    startActivity(intent);
+                } else if(position == 90) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment91.class);
+                    startActivity(intent);
+                } else if(position == 91) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment92.class);
+                    startActivity(intent);
+                } else if(position == 92) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment93.class);
+                    startActivity(intent);
+                } else if(position == 93) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment94.class);
+                    startActivity(intent);
+                } else if(position == 94) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment95.class);
+                    startActivity(intent);
+                } else if(position == 95) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment96.class);
+                    startActivity(intent);
+                } else if(position == 96) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment97.class);
+                    startActivity(intent);
+                } else if(position == 97) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment98.class);
+                    startActivity(intent);
+                } else if(position == 98) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment99.class);
+                    startActivity(intent);
+                } else if(position == 99) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment100.class);
                     startActivity(intent);
                 }
             }
