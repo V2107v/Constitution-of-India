@@ -158,6 +158,7 @@ public class Amendments extends AppCompatActivity {
         arrayList.add("Ninety Eighth Amendment");
         arrayList.add("Ninety Ninth Amendment");
         arrayList.add("One Hundredth Amendment");
+        arrayList.add("One Hundred One Amendment");
 
         arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         amendmentsListView.setAdapter(arrayAdapter);
