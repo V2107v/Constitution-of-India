@@ -2,12 +2,44 @@ package com.example.constitutionofindia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.amendments.Amendment01;
+import com.example.amendments.Amendment02;
+import com.example.amendments.Amendment03;
+import com.example.amendments.Amendment04;
+import com.example.amendments.Amendment05;
+import com.example.amendments.Amendment06;
+import com.example.amendments.Amendment07;
+import com.example.amendments.Amendment08;
+import com.example.amendments.Amendment09;
+import com.example.amendments.Amendment10;
+import com.example.amendments.Amendment11;
+import com.example.amendments.Amendment12;
+import com.example.amendments.Amendment13;
+import com.example.amendments.Amendment14;
+import com.example.amendments.Amendment15;
+import com.example.amendments.Amendment16;
+import com.example.amendments.Amendment17;
+import com.example.amendments.Amendment18;
+import com.example.amendments.Amendment19;
+import com.example.amendments.Amendment20;
+import com.example.amendments.Amendment21;
+import com.example.amendments.Amendment22;
+import com.example.amendments.Amendment23;
+import com.example.amendments.Amendment24;
+import com.example.amendments.Amendment25;
+import com.example.amendments.Amendment26;
+import com.example.amendments.Amendment27;
+import com.example.amendments.Amendment28;
+import com.example.amendments.Amendment29;
+import com.example.amendments.Amendment30;
 
 import java.util.ArrayList;
 
@@ -134,23 +166,99 @@ public class Amendments extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(Amendments.this, arrayList.get(position), Toast.LENGTH_SHORT).show();
+                if(position == 0) {
+                    Intent intent = new Intent(getApplicationContext(),Amendment01.class);
+                    startActivity(intent);
+                } else if(position == 1) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment02.class);
+                    startActivity(intent);
+                } else if(position == 2) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment03.class);
+                    startActivity(intent);
+                } else if(position == 3) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment04.class);
+                    startActivity(intent);
+                } else if(position == 4) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment05.class);
+                    startActivity(intent);
+                } else if(position == 5) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment06.class);
+                    startActivity(intent);
+                } else if(position == 6) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment07.class);
+                    startActivity(intent);
+                } else if(position == 7) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment08.class);
+                    startActivity(intent);
+                } else if(position == 8) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment09.class);
+                    startActivity(intent);
+                } else if(position == 9) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment10.class);
+                    startActivity(intent);
+                } else if(position == 10) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment11.class);
+                    startActivity(intent);
+                } else if(position == 11) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment12.class);
+                    startActivity(intent);
+                } else if(position ==12) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment13.class);
+                    startActivity(intent);
+                } else if(position == 13) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment14.class);
+                    startActivity(intent);
+                } else if(position == 14) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment15.class);
+                    startActivity(intent);
+                } else if(position == 15) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment16.class);
+                    startActivity(intent);
+                } else if(position == 16) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment17.class);
+                    startActivity(intent);
+                } else if(position == 17) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment18.class);
+                    startActivity(intent);
+                } else if(position == 18) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment19.class);
+                    startActivity(intent);
+                } else if(position == 19) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment20.class);
+                    startActivity(intent);
+                } else if(position == 20) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment21.class);
+                    startActivity(intent);
+                } else if(position == 21) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment22.class);
+                    startActivity(intent);
+                } else if(position == 22) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment23.class);
+                    startActivity(intent);
+                } else if(position == 23) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment24.class);
+                    startActivity(intent);
+                } else if(position == 24) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment25.class);
+                    startActivity(intent);
+                } else if(position == 25) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment26.class);
+                    startActivity(intent);
+                } else if(position == 26) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment27.class);
+                    startActivity(intent);
+                } else if(position == 27) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment28.class);
+                    startActivity(intent);
+                } else if(position == 28) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment29.class);
+                    startActivity(intent);
+                } else if(position == 29) {
+                    Intent intent = new Intent(getApplicationContext(), Amendment30.class);
+                    startActivity(intent);
+                }
             }
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
