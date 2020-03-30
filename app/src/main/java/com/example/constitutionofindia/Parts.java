@@ -4,17 +4,23 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+
+
+import com.example.parts.*;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Parts extends AppCompatActivity {
+import static java.security.AccessController.getContext;
+
+public class Parts extends AppCompatActivity implements ProductAdapter.itemClickListener {
 
     RecyclerView recyclerView;
     ProductAdapter adapter;
     List<Product> productList;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,10 +61,91 @@ public class Parts extends AppCompatActivity {
         productList.add(new Product("Part XXI","Temporary, Transitional and Special Provisions","369-392"));
         productList.add(new Product("Part XXII","Short Title, Commencement, Authoritative Text in Hindi and Repeals","393-395"));
 
-        adapter = new ProductAdapter(this,productList);
+        adapter = new ProductAdapter(this,productList,this);
         recyclerView.setAdapter(adapter);
 
+    }
 
-
+    @Override
+    public void itemClickListener(int position) {
+        if(position == 0) {
+            Intent intent = new Intent(this,I.class);
+            startActivity(intent);
+        } else if(position == 1) {
+            Intent intent = new Intent(this, II.class);
+            startActivity(intent);
+        } else if(position == 2) {
+            Intent intent = new Intent(this, III.class);
+            startActivity(intent);
+        } else if(position == 3) {
+            Intent intent = new Intent(this, IV.class);
+            startActivity(intent);
+        } else if(position == 4) {
+            Intent intent = new Intent(this, IVA.class);
+            startActivity(intent);
+        } else if(position == 5) {
+            Intent intent = new Intent(this, V.class);
+            startActivity(intent);
+        } else if(position == 6) {
+            Intent intent = new Intent(this, VI.class);
+            startActivity(intent);
+        } else if(position == 7) {
+            Intent intent = new Intent(this, VII.class);
+            startActivity(intent);
+        } else if(position == 8) {
+            Intent intent = new Intent(this, VIII.class);
+            startActivity(intent);
+        } else if(position == 9) {
+            Intent intent = new Intent(this, IX.class);
+            startActivity(intent);
+        } else if(position == 10) {
+            Intent intent = new Intent(this, IXA.class);
+            startActivity(intent);
+        } else if(position == 11) {
+            Intent intent = new Intent(this, IXB.class);
+            startActivity(intent);
+        } else if(position == 12) {
+            Intent intent = new Intent(this, X.class);
+            startActivity(intent);
+        } else if(position == 13) {
+            Intent intent = new Intent(this, XI.class);
+            startActivity(intent);
+        } else if(position == 14) {
+            Intent intent = new Intent(this, XII.class);
+            startActivity(intent);
+        } else if(position == 15) {
+            Intent intent = new Intent(this, XIII.class);
+            startActivity(intent);
+        } else if(position == 16) {
+            Intent intent = new Intent(this, XIV.class);
+            startActivity(intent);
+        } else if(position == 17) {
+            Intent intent = new Intent(this, XIVA.class);
+            startActivity(intent);
+        } else if(position == 18) {
+            Intent intent = new Intent(this, XV.class);
+            startActivity(intent);
+        } else if(position == 19) {
+            Intent intent = new Intent(this, XVI.class);
+            startActivity(intent);
+        } else if(position == 20) {
+            Intent intent = new Intent(this, XVII.class);
+            startActivity(intent);
+        } else if(position == 21) {
+            Intent intent = new Intent(this, XVIII.class);
+            startActivity(intent);
+        } else if(position == 22) {
+            Intent intent = new Intent(this, XIX.class);
+            startActivity(intent);
+        } else if(position == 23) {
+            Intent intent = new Intent(this, XX.class);
+            startActivity(intent);
+        } else if(position == 24) {
+            Intent intent = new Intent(this, XXI.class);
+            startActivity(intent);
+        } else if(position == 25) {
+            Intent intent = new Intent(this, XXII.class);
+            startActivity(intent);
+        }
     }
 }
