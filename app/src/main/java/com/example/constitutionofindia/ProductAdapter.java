@@ -36,7 +36,7 @@ public class ProductAdapter extends  RecyclerView.Adapter<ProductAdapter.Product
 
         holder.headingparts.setText(product.getHeadingparts());
         holder.subheadingparts.setText(product.getSubheadingparts());
-        holder.sideheadingparts.setText(product.getSideheadingparts());
+        holder.sideheadingparts2.setText(product.getSideheadingparts2());
 
     }
 
@@ -47,15 +47,14 @@ public class ProductAdapter extends  RecyclerView.Adapter<ProductAdapter.Product
 
     class ProductViewHolder extends RecyclerView.ViewHolder {
 
-        TextView headingparts, subheadingparts, sideheadingparts;
+        TextView headingparts, subheadingparts,sideheadingparts2;
 
         public ProductViewHolder(@NonNull View itemView) {
             super(itemView);
 
             headingparts = itemView.findViewById(R.id.headingparts);
             subheadingparts = itemView.findViewById(R.id.subheadingparts);
-            sideheadingparts = itemView.findViewById(R.id.sideheadingparts);
-
+            sideheadingparts2= itemView.findViewById(R.id.sideheadingparts2);
         }
     }
 }

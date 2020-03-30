@@ -2,12 +2,12 @@ package com.example.constitutionofindia;
 
 public class Product {
 
-    private String headingparts, subheadingparts, sideheadingparts;
+    private String headingparts, subheadingparts, sideheadingparts2;
 
-    public Product(String headingparts, String subheadingparts, String sideheadingparts) {
+    public Product(String headingparts, String subheadingparts, String sideheadingparts2) {
         this.headingparts = headingparts;
         this.subheadingparts = subheadingparts;
-        this.sideheadingparts = sideheadingparts;
+        this.sideheadingparts2 = sideheadingparts2;
     }
 
     public String getHeadingparts() {
@@ -18,7 +18,8 @@ public class Product {
         return subheadingparts;
     }
 
-    public String getSideheadingparts() {
-        return sideheadingparts;
+
+    public String getSideheadingparts2() {
+        return sideheadingparts2;
     }
 }
