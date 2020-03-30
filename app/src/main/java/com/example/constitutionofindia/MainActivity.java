@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 } else if(position == 1) {
                     Toast.makeText(MainActivity.this, "Parts", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),Parts.class);
+                    startActivity(intent);
                 } else if (position == 2) {
                     Toast.makeText(MainActivity.this, "Schedule", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(),Schedule.class);
