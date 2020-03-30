@@ -23,5 +23,11 @@ public class I extends AppCompatActivity {
         ArrayList<String> arrayList = new ArrayList<>();
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);
+
+        arrayList.add("Article 001");
+        arrayList.add("Article 002");
+        arrayList.add("Article 002a");
+        arrayList.add("Article 003");
+        arrayList.add("Article 004");
     }
 }

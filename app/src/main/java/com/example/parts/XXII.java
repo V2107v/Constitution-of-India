@@ -24,5 +24,9 @@ public class XXII extends AppCompatActivity {
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);
 
+        arrayList.add("Article 393");
+        arrayList.add("Article 394");
+        arrayList.add("Article 394a");
+        arrayList.add("Article 395");
     }
 }

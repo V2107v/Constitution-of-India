@@ -23,5 +23,16 @@ public class XIX extends AppCompatActivity {
         ArrayList<String> arrayList = new ArrayList<>();
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);
+
+        arrayList.add("Article 361");
+        arrayList.add("Article 361a");
+        arrayList.add("Article 361b");
+        arrayList.add("Article 362");
+        arrayList.add("Article 363");
+        arrayList.add("Article 363a");
+        arrayList.add("Article 364");
+        arrayList.add("Article 365");
+        arrayList.add("Article 366");
+        arrayList.add("Article 367");
     }
 }

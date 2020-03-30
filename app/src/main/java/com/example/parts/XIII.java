@@ -23,5 +23,13 @@ public class XIII extends AppCompatActivity {
         ArrayList<String> arrayList = new ArrayList<>();
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);
+
+        arrayList.add("Article 301");
+        arrayList.add("Article 302");
+        arrayList.add("Article 303");
+        arrayList.add("Article 304");
+        arrayList.add("Article 305");
+        arrayList.add("Article 306");
+        arrayList.add("Article 307");
     }
 }

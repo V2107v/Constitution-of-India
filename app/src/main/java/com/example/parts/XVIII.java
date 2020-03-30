@@ -23,5 +23,17 @@ public class XVIII extends AppCompatActivity {
         ArrayList<String> arrayList = new ArrayList<>();
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);
+
+        arrayList.add("Article 352");
+        arrayList.add("Article 353");
+        arrayList.add("Article 354");
+        arrayList.add("Article 355");
+        arrayList.add("Article 356");
+        arrayList.add("Article 357");
+        arrayList.add("Article 358");
+        arrayList.add("Article 359");
+        arrayList.add("Article 359a");
+        arrayList.add("Article 360");
+
     }
 }

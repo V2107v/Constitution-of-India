@@ -23,5 +23,25 @@ public class IX extends AppCompatActivity {
         ArrayList<String> arrayList = new ArrayList<>();
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);
+
+        arrayList.add("Article 243");
+        arrayList.add("Article 243a");
+        arrayList.add("Article 243b");
+        arrayList.add("Article 243c");
+        arrayList.add("Article 243d");
+        arrayList.add("Article 243e");
+        arrayList.add("Article 243f");
+        arrayList.add("Article 243g");
+        arrayList.add("Article 243h");
+        arrayList.add("Article 243i");
+        arrayList.add("Article 243j");
+        arrayList.add("Article 243k");
+        arrayList.add("Article 243l");
+        arrayList.add("Article 243m");
+        arrayList.add("Article 243n");
+        arrayList.add("Article 243o");
+
+
+
     }
 }
