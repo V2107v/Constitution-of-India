@@ -30,7 +30,7 @@
 
             <TextView
                 android:id="@+id/subheadingparts"
-                android:layout_width="wrap_content"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="30dp"
@@ -38,7 +38,7 @@
                 android:text="The Union and its Territory"
                 android:textAlignment="viewStart"
                 android:textColor="#757575"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
 
             <TextView
@@ -52,7 +52,7 @@
                 android:text="Articles"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/sideheadingparts2"
@@ -65,7 +65,7 @@
                 android:text="1-4"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
 
 
